@@ -6,8 +6,8 @@ by [Gayatri](https://github.com/gayatrirajgor), [Lukacs](https://github.com/luka
 |----|------------------------------|
 |1   | [Project Overview](#overview)|
 |2   | [Project Brief](#brief)      |  
-|3   | [Technologies Used](#tech)   |  
-
+|3   | [Technologies Used](#tech)   | 
+|4   | [Approach](#approach)        |
 
 <a name="overview"></a>
 ## 1. Overview
@@ -51,3 +51,15 @@ Other development tools:
 * Zoom 
 * Slack
 
+<a name="approach"></a>
+## 4. Approach ✏️
+### Planning 
+We first decided to create an e-commerce app as a group. We used Google Jamboard to develop wireframes after deciding on the basis for our app. 
+
+### Back End
+We agreed as a team to programme the back end components of the project together so that we could all gain expertise, as well as to limit the amount of time spent on the back end owing to the navigators seeing any potential errors.
+
+The back end is a CRUD API, that uses MongoDB, Mongoose, NodeJS and Express.
+
+### Front End
+For the front end, we would meet in our daily stand up and discuss what components everyone wanted to focus on for the day. For this project, I worked on the login, register, home page, navbar, and NFT form page.  
