@@ -1,6 +1,8 @@
 # Tokenizer 🪙
 Tokenizer is a full-stack MERN (Mongo, Express, React, NodeJS) application built over seven days in a group of three. This project was deployed via Heroku and can be accessed [here](https://tokenizer-nft.herokuapp.com/). 
 
+by [Gayatri](https://github.com/gayatrirajgor), [Lukacs](https://github.com/lukacspapp), and [Ricardo](https://github.com/rjriverac)
+
 ## Brief 📃
 * Build a full-stack application, building your own front and back end. 
 * Use an Express API to serve the data from a Mongo database
