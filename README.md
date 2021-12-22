@@ -10,7 +10,7 @@ by [Gayatri](https://github.com/gayatrirajgor), [Lukacs](https://github.com/luka
 |4   | [Approach](#approach)             |
 |5   | [Wins & Challenges](#wins)        |
 |6   | [Future Ideas](#ideas)            |
-
+|7   | [Result](#result)                 |
 
 <a name="overview"></a>
 ## 1. Overview
@@ -98,7 +98,6 @@ I used a package called [Pure React Carousel](https://www.npmjs.com/package/pure
   })}
 </Slider>
 ```
-<img width="1260" alt="Screenshot 2021-12-22 at 14 12 28" src="https://user-images.githubusercontent.com/59033443/147105955-72efb9dc-ca31-4266-adae-389285558910.png">
 
 #### Navbar
 If a user was not logged in, I wanted the navbar to display the options 'Create an Account' or 'Sign in,' and if the user was logged in, I wanted the navbar to show the options 'Logout,' 'Cart,' and 'Profile.' To do this, I utilised a ternary that determines whether or not the user is authenticated. The `userIsAuthenticated` function first determines whether or not a payload exists; if it does not, false is returned. The function then checks if the current time of the token is less than the expiry time, and if it returns true, the user can be authenticated.
@@ -139,11 +138,10 @@ const userIsAuthenticated = () => {
 #### Login & Register
 
 
-<img width="903" alt="Screenshot 2021-12-22 at 14 31 43" src="https://user-images.githubusercontent.com/59033443/147108410-b5da3d17-5460-43f2-80d6-42a8cf83e95e.png">
-<img width="1384" alt="Screenshot 2021-12-22 at 14 32 13" src="https://user-images.githubusercontent.com/59033443/147108495-cb7d7ced-e5f5-4d1b-aed3-b2ad5a58f318.png">
+
 
 #### NFT Form Page
-<img width="1482" alt="Screenshot 2021-12-22 at 15 13 11" src="https://user-images.githubusercontent.com/59033443/147114018-8fa88fae-ef4c-4c51-88be-0112951172ef.png">
+
 
 <a name="wins"></a>
 ## 5. Wins & Challenges 🏆
@@ -161,3 +159,29 @@ const userIsAuthenticated = () => {
 * Change password function
 * Delete account function
 * Add comments on an NFT
+
+<a name="result"></a>
+## 7. Result 
+### Homepage
+<img width="1260" alt="Screenshot 2021-12-22 at 14 12 28" src="https://user-images.githubusercontent.com/59033443/147105955-72efb9dc-ca31-4266-adae-389285558910.png">
+
+### Register page
+<img width="903" alt="Screenshot 2021-12-22 at 14 31 43" src="https://user-images.githubusercontent.com/59033443/147108410-b5da3d17-5460-43f2-80d6-42a8cf83e95e.png">
+
+### Login page
+<img width="1384" alt="Screenshot 2021-12-22 at 14 32 13" src="https://user-images.githubusercontent.com/59033443/147108495-cb7d7ced-e5f5-4d1b-aed3-b2ad5a58f318.png">
+
+### Browse page 
+<img width="873" alt="Screenshot 2021-12-22 at 15 46 49" src="https://user-images.githubusercontent.com/59033443/147118708-86cd9869-a766-480d-ab75-711205b6e9e8.png">
+
+### Individual NFT page
+<img width="950" alt="Screenshot 2021-12-22 at 15 52 29" src="https://user-images.githubusercontent.com/59033443/147119639-69c5da81-8982-4081-b58b-47423b20d8c3.png">
+
+### Add NFT page
+<img width="1482" alt="Screenshot 2021-12-22 at 15 13 11" src="https://user-images.githubusercontent.com/59033443/147114018-8fa88fae-ef4c-4c51-88be-0112951172ef.png">
+
+### Cart page
+<img width="945" alt="Screenshot 2021-12-22 at 15 55 34" src="https://user-images.githubusercontent.com/59033443/147119939-7a248c98-2e04-4b7b-a96d-68aa87389072.png">
+
+### Profile page
+<img width="510" alt="Screenshot 2021-12-22 at 15 57 17" src="https://user-images.githubusercontent.com/59033443/147120210-2391a1d1-eb85-4400-9b23-dd2a11e4d3ee.png">
