@@ -135,7 +135,9 @@ const userIsAuthenticated = () => {
 <img width="1108" alt="Screenshot 2021-12-22 at 14 28 03" src="https://user-images.githubusercontent.com/59033443/147108023-e3a6cca6-ef05-4aed-b156-d83dc6ff5632.png">
 <img width="1106" alt="Screenshot 2021-12-22 at 14 27 53" src="https://user-images.githubusercontent.com/59033443/147108058-3b1d45e3-2813-45e6-91a1-215f29a9bcac.png">
 
-
 #### Login & Register
+
+<img width="903" alt="Screenshot 2021-12-22 at 14 31 43" src="https://user-images.githubusercontent.com/59033443/147108410-b5da3d17-5460-43f2-80d6-42a8cf83e95e.png">
+<img width="1384" alt="Screenshot 2021-12-22 at 14 32 13" src="https://user-images.githubusercontent.com/59033443/147108495-cb7d7ced-e5f5-4d1b-aed3-b2ad5a58f318.png">
 
  
