@@ -11,7 +11,8 @@ by [Gayatri](https://github.com/gayatrirajgor), [Lukacs](https://github.com/luka
 
 <a name="overview"></a>
 ## 1. Overview
-Tokenizer is a full-stack MERN (Mongo, Express, React, NodeJS) application built over seven days in a group of three. This project was deployed via Heroku and can be accessed [here](https://tokenizer-nft.herokuapp.com/). 
+Tokenizer is a full-stack MERN (Mongo, Express, React, NodeJS) application built over seven days in a group of three. 
+This project was deployed via Heroku and can be accessed [here](https://tokenizer-nft.herokuapp.com/). 
 
 <a name="brief"></a>
 ## 2. Brief 📃
