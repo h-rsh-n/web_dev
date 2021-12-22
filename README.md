@@ -148,6 +148,9 @@ const userIsAuthenticated = () => {
 <a name="wins"></a>
 ## 5. Wins & Challenges 🏆
 ### Wins
+* As this was my first full-stack project, properly connecting the back-end and front-end and seeing the end result was a huge accomplishment.
+* It was also a plus to be able to utilise several packages and frameworks together by following documentation.
+* The teamwork was excellent, and the project was a huge success because of strong communication and a desire to help one another.
 
 ### Challenges 
 * For the first time, I utilised a CSS framework called [Semantic UI](https://react.semantic-ui.com/) for this project; getting familiar with the framework's syntax was a bit of a challenge, but after I got the hang of it, I could definitely see the benefits.
