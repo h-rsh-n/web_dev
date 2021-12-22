@@ -11,7 +11,7 @@ by [Gayatri](https://github.com/gayatrirajgor), [Lukacs](https://github.com/luka
 
 <a name="overview"></a>
 ## 1. Overview
-Tokenizer is a full-stack MERN (Mongo, Express, React, NodeJS) application built over seven days in a group of three. 
+Tokenizer is a full-stack MERN (Mongo, Express, React, NodeJS) application built over seven days in a group of three. We chose to create an e-commerce website that was heavily influenced by the OpenSea website.
 This project was deployed via Heroku and can be accessed [here](https://tokenizer-nft.herokuapp.com/). 
 
 <a name="brief"></a>
@@ -66,7 +66,38 @@ We agreed as a team to programme the back end components of the project together
 
 The back end is a CRUD API, that uses MongoDB, Mongoose, NodeJS and Express.
 
+#### Models
+
 ### Front End
 For the front end, we would meet in our daily stand up and discuss what components everyone wanted to focus on for the day. For this project, I worked on the login, register, home page, navbar, and NFT form page.  
 
+#### Homepage
+I used a package called Pure React Carousel to construct a carousel for the homepage. I needed the carousel to show no more than four NFT images, so I used the filter function to return an array with only four entries and then used the map method to display each item in the array.
+```js
+<Slider>
+  {nftData.filter((_item, index) => index < 4).map((product, index) => {
+    return (
+      <>
+        <Slide key={index}>
+          <Card as='a' href={`/browse/${product._id}`}>
+            <Image src={product.image}></Image>
+            <Card.Content>
+              <Card.Header>{product.name}</Card.Header>
+            </Card.Content>
+            <Card.Content extra>
+              <Label>
+                <Icon name='bitcoin'/>Price: {product.currentPrice}
+              </Label>
+            </Card.Content>
+          </Card>
+        </Slide>
+        <Divider />
+      </>
+    )
+  })}
+</Slider>
+```
+
 #### Login & Register
+
+ 
