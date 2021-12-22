@@ -68,3 +68,5 @@ The back end is a CRUD API, that uses MongoDB, Mongoose, NodeJS and Express.
 
 ### Front End
 For the front end, we would meet in our daily stand up and discuss what components everyone wanted to focus on for the day. For this project, I worked on the login, register, home page, navbar, and NFT form page.  
+
+#### Login & Register
