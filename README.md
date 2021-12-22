@@ -72,7 +72,7 @@ The back end is a CRUD API, that uses MongoDB, Mongoose, NodeJS and Express.
 For the front end, we would meet in our daily stand up and discuss what components everyone wanted to focus on for the day. For this project, I worked on the login, register, home page, navbar, and NFT form page.  
 
 #### Homepage
-I used a package called Pure React Carousel to construct a carousel for the homepage. I needed the carousel to show no more than four NFT images, so I used the filter function to return an array with only four entries and then used the map method to display each item in the array.
+I used a package called [Pure React Carousel](https://www.npmjs.com/package/pure-react-carousel) to construct a carousel for the homepage. I needed the carousel to show no more than four NFT images, so I used the `filter` function to return an array with only four entries and then used the `map` method to display each item in the array.
 ```js
 <Slider>
   {nftData.filter((_item, index) => index < 4).map((product, index) => {
@@ -97,6 +97,44 @@ I used a package called Pure React Carousel to construct a carousel for the home
   })}
 </Slider>
 ```
+<img width="1260" alt="Screenshot 2021-12-22 at 14 12 28" src="https://user-images.githubusercontent.com/59033443/147105955-72efb9dc-ca31-4266-adae-389285558910.png">
+
+#### Navbar
+If a user was not logged in, I wanted the navbar to display the options 'Create an Account' or 'Sign in,' and if the user was logged in, I wanted the navbar to show the options 'Logout,' 'Cart,' and 'Profile.' To do this, I utilised a ternary that determines whether or not the user is authenticated. The `userIsAuthenticated` function first determines whether or not a payload exists; if it does not, false is returned. The function then checks if the current time of the token is less than the expiry time, and if it returns true, the user can be authenticated.
+
+```js
+const userIsAuthenticated = () => {
+  const payload = getPayload()
+  if (!payload) return false
+  const now = Math.round(Date.now() / 1000)
+  return now < payload.exp
+}
+```
+```js
+{!userIsAuthenticated() ?
+  <>
+    <Menu.Item position='right'><Button as='a' color='teal' href='/register'>Create an Account</Button></Menu.Item>
+    <Menu.Item><Button as='a' inverted color='teal' href='/login'>Sign In</Button></Menu.Item>
+  </>
+  :
+  <>
+    <Menu.Item position='right' as='a' onClick={handleLogout}>Log Out</Menu.Item>
+    <Menu.Item as='a' href='/cart'><Icon name='shopping cart' />Cart</Menu.Item>
+    <Menu.Item><Icon name='user circle' size='large' />
+      <Dropdown floating closeOnChange inline direction='left'>
+        <Dropdown.Menu size='mini'>
+          <Dropdown.Header>Signed in as: {getUsername.username} </Dropdown.Header>
+          <Dropdown.Item as='a' href='/profile' icon='user circle' text='Go to your profile' />
+          <Dropdown.Item as='a' href='/profile/add' icon='add' text='Add NFT' />
+        </Dropdown.Menu>
+      </Dropdown>
+    </Menu.Item>
+  </>
+}
+```
+<img width="1108" alt="Screenshot 2021-12-22 at 14 28 03" src="https://user-images.githubusercontent.com/59033443/147108023-e3a6cca6-ef05-4aed-b156-d83dc6ff5632.png">
+<img width="1106" alt="Screenshot 2021-12-22 at 14 27 53" src="https://user-images.githubusercontent.com/59033443/147108058-3b1d45e3-2813-45e6-91a1-215f29a9bcac.png">
+
 
 #### Login & Register
 
