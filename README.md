@@ -2,12 +2,15 @@
 by [Gayatri](https://github.com/gayatrirajgor), [Lukacs](https://github.com/lukacspapp), and [Ricardo](https://github.com/rjriverac)
 
 ## Table of Contents
-|No. | Content                      | 
-|----|------------------------------|
-|1   | [Project Overview](#overview)|
-|2   | [Project Brief](#brief)      |  
-|3   | [Technologies Used](#tech)   | 
-|4   | [Approach](#approach)        |
+|No. | Content                           | 
+|----|-----------------------------------|
+|1   | [Project Overview](#overview)     |
+|2   | [Project Brief](#brief)           |  
+|3   | [Technologies Used](#tech)        | 
+|4   | [Approach](#approach)             |
+|5   | [Wins & Challenges](#wins)        |
+|6   | [Future Ideas](#ideas)            |
+
 
 <a name="overview"></a>
 ## 1. Overview
@@ -55,7 +58,7 @@ Other development tools:
 <a name="approach"></a>
 ## 4. Approach ✏️
 ### Planning 
-We first decided to create an e-commerce app as a group. We used Google Jamboard to develop wireframes after deciding on the basis for our app. 
+We first decided to create an e-commerce app as a group. We used Google Jamboard to develop wireframes after deciding on the basis for our app. After we finished our wireframes, we utilised Asana to determine which tasks needed to be performed and who would be in charge of completing them.
 <img width="1111" alt="Screenshot 2021-12-22 at 11 42 24" src="https://user-images.githubusercontent.com/59033443/147087682-f80aa2c7-4dc2-43d3-b28a-a1dca911e4c3.png">
 <img width="962" alt="Screenshot 2021-12-22 at 11 44 12" src="https://user-images.githubusercontent.com/59033443/147087921-348e9333-c8d5-4cc7-a8da-d109f8f3b796.png">
 <img width="556" alt="Screenshot 2021-12-22 at 11 58 15" src="https://user-images.githubusercontent.com/59033443/147089510-74d3ffa5-9720-4495-955f-50dea1a04932.png">
@@ -65,8 +68,6 @@ We first decided to create an e-commerce app as a group. We used Google Jamboard
 We agreed as a team to programme the back end components of the project together so that we could all gain expertise, as well as to limit the amount of time spent on the back end owing to the navigators seeing any potential errors.
 
 The back end is a CRUD API, that uses MongoDB, Mongoose, NodeJS and Express.
-
-#### Models
 
 ### Front End
 For the front end, we would meet in our daily stand up and discuss what components everyone wanted to focus on for the day. For this project, I worked on the login, register, home page, navbar, and NFT form page.  
@@ -137,7 +138,23 @@ const userIsAuthenticated = () => {
 
 #### Login & Register
 
+
 <img width="903" alt="Screenshot 2021-12-22 at 14 31 43" src="https://user-images.githubusercontent.com/59033443/147108410-b5da3d17-5460-43f2-80d6-42a8cf83e95e.png">
 <img width="1384" alt="Screenshot 2021-12-22 at 14 32 13" src="https://user-images.githubusercontent.com/59033443/147108495-cb7d7ced-e5f5-4d1b-aed3-b2ad5a58f318.png">
 
- 
+#### NFT Form Page
+<img width="1482" alt="Screenshot 2021-12-22 at 15 13 11" src="https://user-images.githubusercontent.com/59033443/147114018-8fa88fae-ef4c-4c51-88be-0112951172ef.png">
+
+<a name="wins"></a>
+## 5. Wins & Challenges 🏆
+### Wins
+
+### Challenges 
+* For the first time, I utilised a CSS framework called [Semantic UI](https://react.semantic-ui.com/) for this project; getting familiar with the framework's syntax was a bit of a challenge, but after I got the hang of it, I could definitely see the benefits.
+
+<a name="ideas"></a>
+## 6. Future Ideas 💭
+* Pagination for all NFTs
+* Change password function
+* Delete account function
+* Add comments on an NFT
