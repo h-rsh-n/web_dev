@@ -1,3 +1,5 @@
+## README in progress... ![90%](https://progress-bar.dev/90)
+
 # Tokenizer 🪙
 by [Gayatri](https://github.com/gayatrirajgor), [Lukacs](https://github.com/lukacspapp), and [Ricardo](https://github.com/rjriverac)
 
