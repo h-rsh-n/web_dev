@@ -42,7 +42,7 @@ Front End:
 * React, React Router
 * Semantic UI
 * Pure React Carousel 
-* Animate CSS
+* [Animate CSS](https://animate.style/)
 
 Libraries used:
 * Axios
@@ -51,7 +51,7 @@ Libraries used:
 Other development tools:
 * Insomnia 
 * Asana (planning)
-* Recharts (a framework for charts)
+* [Recharts](https://recharts.org/en-US/) (a framework for charts)
 * Google Jamboard (wireframes) 
 * Git & GitHub
 * Zoom 
@@ -168,7 +168,7 @@ const handleSubmit = async event => {
   }
 }
 ```
-The user had to sign in with their email and password for the login page, and the information submitted were then set to state via a `handleChange` function. The post request is then sent to the backend when the user hits the 'Login' button. 
+The user had to sign in with their email and password for the login page, and the information submitted was then set to state via a `handleChange` function. The post request is then sent to the backend when the user hits the 'Login' button. 
 ```js
 const [formData, setFormData] = useState({
   email: '',
