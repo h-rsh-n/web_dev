@@ -16,7 +16,7 @@ by [Gayatri](https://github.com/gayatrirajgor), [Lukacs](https://github.com/luka
 
 <a name="overview"></a>
 ## 1. Overview
-Tokenizer is a full-stack MERN (Mongo, Express, React, NodeJS) NFT e-commerce application built over seven days in a group of three. We chose to create an e-commerce website that was heavily influenced by the OpenSea website. After registering, a user can upload and update their NFT. All NFTs have their own pricing charts, allowing users to track price movements across all NFTs.
+Tokenizer is a full-stack MERN (Mongo, Express, React, NodeJS) NFT e-commerce application built over seven days in a group of three. We chose to create an e-commerce website that was heavily influenced by the [Kraken](https://www.kraken.com/en-gb/) website. After registering, a user can upload and update their NFT. All NFTs have their own pricing charts, allowing users to track price movements across all NFTs.
 This project was deployed via Heroku and can be accessed [here](https://tokenizer-nft.herokuapp.com/). 
 
 <a name="brief"></a>
