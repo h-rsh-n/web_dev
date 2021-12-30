@@ -211,12 +211,38 @@ export const loginUser = async (req, res) => {
 }
 ```
 #### NFT Form Page
+The user must input a name for the NFT as well as an image on the NFT form page. The category section is entirely optional. The information is then set to state and sent to the back end using a `POST` request, along with the necessary authorisation.
+
+```js
+const [formData, setFormData] = useState({
+  name: '',
+  image: '',
+  category: ''
+})
+
+const handleSubmit = async (event) => {
+  event.preventDefault()
+  try {
+    await axios.post('/api/all',
+      formData, {
+        headers: { Authorization: `Bearer ${token}` }
+      }
+    )
+    setMessage(true)
+  } catch (err) {
+    console.log(err)
+    setErrors(true)
+    setMessage(false)
+  }
+  setFormData({ name: '', image: '', category: '' })
+}
+```
 
 
 <a name="wins"></a>
 ## 5. Wins & Challenges 🏆
 ### Wins
-* As this was my first full-stack project, properly connecting the back-end and front-end and seeing the end result was a huge accomplishment.
+* As this was my first full-stack project, properly connecting the back end and front end and seeing the end result was a huge accomplishment.
 * It was also a plus to be able to utilise several packages and frameworks together by following documentation.
 * The teamwork was excellent, and the project was a huge success because of strong communication and a desire to help one another.
 
