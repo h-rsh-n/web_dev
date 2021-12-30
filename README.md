@@ -62,10 +62,10 @@ Other development tools:
 ### Planning 
 We first decided to create an e-commerce app as a group. We used Google Jamboard to develop wireframes after deciding on the basis for our app. After we finished our wireframes, we utilised [Asana](https://asana.com/) to determine which tasks needed to be performed and who would be in charge of completing them.
 
- <span>  | <span> 
---|--
-<img width="1111" alt="Screenshot 2021-12-22 at 11 42 24" src="https://user-images.githubusercontent.com/59033443/147087682-f80aa2c7-4dc2-43d3-b28a-a1dca911e4c3.png"> | <img width="962" alt="Screenshot 2021-12-22 at 11 44 12" src="https://user-images.githubusercontent.com/59033443/147087921-348e9333-c8d5-4cc7-a8da-d109f8f3b796.png"> 
-<img width="556" alt="Screenshot 2021-12-22 at 11 58 15" src="https://user-images.githubusercontent.com/59033443/147089510-74d3ffa5-9720-4495-955f-50dea1a04932.png"> | <img width="748" alt="Screenshot 2021-12-22 at 11 58 39" src="https://user-images.githubusercontent.com/59033443/147089566-ca59bf1f-1a2d-43c8-a155-5229aadde25b.png"> 
+
+| <img width="1111" alt="Screenshot 2021-12-22 at 11 42 24" src="https://user-images.githubusercontent.com/59033443/147087682-f80aa2c7-4dc2-43d3-b28a-a1dca911e4c3.png"> | <img width="962" alt="Screenshot 2021-12-22 at 11 44 12" src="https://user-images.githubusercontent.com/59033443/147087921-348e9333-c8d5-4cc7-a8da-d109f8f3b796.png"> |
+|---|---|
+<img width="556" alt="Screenshot 2021-12-22 at 11 58 15" src="https://user-images.githubusercontent.com/59033443/147089510-74d3ffa5-9720-4495-955f-50dea1a04932.png"> | <img width="748" alt="Screenshot 2021-12-22 at 11 58 39" src="https://user-images.githubusercontent.com/59033443/147089566-ca59bf1f-1a2d-43c8-a155-5229aadde25b.png"> |
 
 ### Back End
 We agreed as a team to programme the back end components of the project together so that we could all gain expertise, as well as to limit the amount of time spent on the back end owing to the navigators seeing any potential errors. One person was screen sharing, while the other two guided the one doing the code. The back end took three full days to create, with each member of the team coding for one day of that time. Because we each had our own back end sections to work on, we first laid out what models, controllers, and routes we would be developing before diving into the code session. We also chose which features of our models will be embedded or referenced.
