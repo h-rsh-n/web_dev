@@ -138,8 +138,30 @@ const userIsAuthenticated = () => {
 <img width="1106" alt="Screenshot 2021-12-22 at 14 27 53" src="https://user-images.githubusercontent.com/59033443/147108058-3b1d45e3-2813-45e6-91a1-215f29a9bcac.png">
 
 #### Login & Register
+On both the login and registration pages, I used a `POST` request. The details entered by the user for the registration were put to state, and the details entered were then transmitted to the database via a `POST` request on the `handleSubmit`.
+```js
+const [formData, setFormData] = useState({
+  username: '',
+  email: '',
+  password: '',
+  passwordConfirmation: ''
+})
 
-
+const handleSubmit = async event => {
+  event.preventDefault()
+  try {
+    await axios.post('/api/register', formData)
+    setTimeout(() => {
+      history.push('/login')
+    }, 2000)
+    setMessage(true)
+  } catch (err) {
+    console.log(err)
+    setError(true)
+    setMessage(false)
+  }
+}
+```
 
 
 #### NFT Form Page
@@ -161,6 +183,7 @@ const userIsAuthenticated = () => {
 * Change password function
 * Delete account function
 * Add comments on an NFT
+* Add a feature so the user can upload an image of their NFT
 
 <a name="result"></a>
 ## 7. Result 
