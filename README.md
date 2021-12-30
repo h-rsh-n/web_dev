@@ -147,6 +147,11 @@ const [formData, setFormData] = useState({
   passwordConfirmation: ''
 })
 
+const handleChange = (event) => {
+  const newData = { ...formData, [event.target.name]: event.target.value }
+  setFormData(newData)
+}
+
 const handleSubmit = async event => {
   event.preventDefault()
   try {
@@ -162,8 +167,50 @@ const handleSubmit = async event => {
   }
 }
 ```
+The user had to sign in with their email and password for the login page, and the information submitted were then set to state via a `handleChange` function. The post request is then sent to the backend when the user hits the 'Login' button. 
+```js
+const [formData, setFormData] = useState({
+  email: '',
+  password: ''
+})
 
+const handleChange = (event) => {
+  const newData = { ...formData, [event.target.name]: event.target.value }
+  setFormData(newData)
+}
 
+const handleSubmit = async event => {
+  event.preventDefault()
+  try {
+    const { data } = await axios.post('/api/login', formData)
+    setToken(data.token)
+    setTimeout(() => {
+      history.push('/browse')
+    }, 2500)
+    setMessage(true)
+  } catch (err) {
+    console.log(err)
+    setError(true)
+    setMessage(false)
+  }
+}
+```
+The information is then reviewed on the backend to see if the email address exists and if the password is correct.
+```js
+export const loginUser = async (req, res) => {
+  try {
+    const userToLogin = await User.findOne({ email: req.body.email })
+    if (!userToLogin || !userToLogin.validatepw(req.body.password)) {
+      throw new Error()
+    }
+    const token = jwt.sign({ sub: userToLogin._id }, secret, { expiresIn: '20 day' })
+    return res.status(200).json({ 'message': `Welcome back ${userToLogin.username}`, token })  
+  } catch (err) {
+    console.log(err)
+    return res.status(422).json({ 'message': 'Unauthorised' })
+  }
+}
+```
 #### NFT Form Page
 
 
