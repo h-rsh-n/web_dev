@@ -70,7 +70,7 @@ We first decided to create an e-commerce app as a group. We used Google Jamboard
 We agreed as a team to programme the back end components of the project together so that we could all gain expertise, as well as to limit the amount of time spent on the back end owing to the navigators seeing any potential errors. One person was screen sharing, while the other two guided the one doing the code. The back end took three full days to create, with each member of the team coding for one day of that time. Because we each had our own back end sections to work on, we first laid out what models, controllers, and routes we would be developing before diving into the code session. We also chose which features of our models will be embedded or referenced.
 
 The back end is a CRUD API, that uses MongoDB, Mongoose, NodeJS and Express.
-Throughout the nine days, all three of us added around 20 NFTs to the database, most of which came from [Kraken](https://www.kraken.com/en-gb/).
+Throughout the nine days, all three of us added around 20 NFTs to the database, most of which came from [OpenSea](https://opensea.io/).
 
 ### Front End
 For the front end, we would meet in our daily stand up and discuss what components everyone wanted to focus on for the day. For this project, I worked on the login, register, home page, navbar, and NFT form page.  
