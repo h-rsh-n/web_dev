@@ -247,7 +247,7 @@ const handleSubmit = async (event) => {
 * The teamwork was excellent, and the project was a huge success because of strong communication and a desire to help one another.
 
 ### Challenges 
-* For the first time, I utilised a CSS framework called [Semantic UI](https://react.semantic-ui.com/) for this project; getting familiar with the framework's syntax was a bit of a challenge, but after I got the hang of it, I could definitely see the benefits.
+* For the first time, I utilised a CSS framework called [Semantic UI](https://react.semantic-ui.com/) for this project; getting familiar with the framework's syntax was a bit of a challenge, but after I got the hang of it, I could definitely see the benefits. One advantage of utilising Semantic UI was that it supplied a variety of UI components as well as modern designs.
 
 <a name="ideas"></a>
 ## 6. Future Ideas 💭
