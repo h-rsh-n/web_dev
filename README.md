@@ -20,12 +20,12 @@ This project was deployed via Heroku and can be accessed [here](https://tokenize
 <a name="brief"></a>
 ## 2. Brief 📃
 * Build a full-stack application, building your own front and back end. 
-* Use an Express API to serve the data from a Mongo database
+* Use an Express API to serve the data from a Mongo database.
 * Consume your API with a separate front end built with React.
 * Be a complete product which most likely means multiple relationships and CRUD functionality for at least a couple of models.
 * Implement thoughtful user stories/wireframes that are significant enough to help you know which features are core MVP and which you can cut.
 * Work in a team, using git to code collaboratively. 
-* Be deployed online
+* Be deployed online.
 
 <a name="tech"></a>
 ## 3. Technologies 💻
@@ -288,11 +288,11 @@ const handleSubmit = async (event) => {
 
 <a name="ideas"></a>
 ## 6. Future Ideas 💭
-* Pagination for all NFTs
-* Change password function
-* Delete account function
-* Add comments on an NFT
-* Add a feature so the user can upload an image of their NFT
+* Pagination for all NFTs.
+* Change password function.
+* Delete account function.
+* Add comments on an NFT.
+* Add a feature so the user can upload an image of their NFT.
 
 <a name="result"></a>
 ## 7. Result 
