@@ -38,8 +38,8 @@ Back End:
 
 Front End: 
 * React, React Router
-* Semantic UI
-* Pure React Carousel 
+* [Semantic UI](https://react.semantic-ui.com/)
+* [Pure React Carousel](https://www.npmjs.com/package/pure-react-carousel) 
 * [Animate CSS](https://animate.style/)
 
 Libraries used:
@@ -48,7 +48,7 @@ Libraries used:
 
 Other development tools:
 * Insomnia 
-* Asana (planning)
+* [Asana](https://asana.com/) (planning)
 * [Recharts](https://recharts.org/en-US/) (a framework for charts)
 * Google Jamboard (wireframes) 
 * Git & GitHub
