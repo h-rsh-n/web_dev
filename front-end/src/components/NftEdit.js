@@ -48,9 +48,9 @@ const NftEdit = () => {
     <Container>
       <Form onSubmit={handleSubmit} success warning>
         <Form.Field required label='List for Sale?' name='available' control='select' onChange={handleChange}>
-          <option as='Dropdown Header'>Please select</option>
+          {/* <option as='Dropdown Header'>Please select</option>
           <option value={true}>Yes</option>
-          <option value={false}>No</option>
+          <option value={false}>No</option> */}
         </Form.Field>
         <Form.Field>
           <Form.Field
